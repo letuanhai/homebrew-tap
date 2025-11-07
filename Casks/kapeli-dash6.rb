@@ -14,7 +14,6 @@ cask "kapeli-dash6" do
 
   auto_updates false
   conflicts_with cask: "dash"
-  depends_on macos: ">= :high_sierra"
 
   app "Dash.app"
 
