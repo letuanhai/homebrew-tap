@@ -2,8 +2,7 @@ cask "cleanmymac-x" do
   version "4.15.8,41508.0.2409290833,1727689474"
   sha256 "e8b6f656653c50ab2bd843686d58cc0aaf8b391530524cd66ed5c10127f9a904"
 
-  url "https://dl.devmate.com/com.macpaw.CleanMyMac#{version.major}/#{version.csv.second}/#{version.csv.third}/CleanMyMacX-#{version.csv.second}.zip",
-      verified: "dl.devmate.com/"
+  url "https://dl.devmate.com/com.macpaw.CleanMyMac#{version.major}/#{version.csv.second}/#{version.csv.third}/CleanMyMacX-#{version.csv.second}.zip"
   name "CleanMyMac X"
   desc "Tool to remove unnecessary files and folders from disk"
   homepage "https://macpaw.com/cleanmymac"
